@@ -20,15 +20,8 @@ const values = [
   "Q",
   "K"
 ];
-const suits = ["Hearts", "Diamonds", "Spades", "Clubs"];
-
-function deckBuilder() {
-  document.querySelector;
-}
-
-function displayCard() {}
+const suits = ["♥️", "♦️", "♠️", "♣️"];
 
 window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
+  // esta función es la que se ejecuta cuando se carga la página. Aquí es donde deberemos generar el palo y el número de la carta.
 };
