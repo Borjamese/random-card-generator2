@@ -1,5 +1,9 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
+body {
+  background-color: rgb(13, 95, 13);
+}
+
 .card {
   position: relative;
   width: 210px;
@@ -11,17 +15,14 @@
   margin-right: auto;
   margin-top: 100px;
 }
-
 .card.hearts,
 .card.diamonds {
   color: red;
 }
-
 .card.spades,
 .card.clubs {
   color: black;
 }
-
 .card-suit {
   font-size: 100px;
   position: absolute;
